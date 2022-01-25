@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="side-menu">
+        <div *ngFor="let item of listaItemsMenu"
+             class="opcao-menu" 
+             (click)="selecionado(item)" 
+             [ngClass]="{'opcao-selecionada' : item.selecionado}">
+             <span [ngClass]="item.nomeIcone" [ngStyle]="{'font-size': item.tamIcone}"></span>
+             <span>{{item.nome}}</span>
+        </div>
+    </div>
+</div>

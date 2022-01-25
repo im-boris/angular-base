@@ -1,0 +1,24 @@
+@import "cores";
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.top-bar-titulo {
+    color: $cor-branca;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    overflow: hidden;
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 16px;
+    border-bottom: initial;
+}
+
+.back-ground {
+    background: #44A08D;
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);
+    background: linear-gradient(to right, #093637, #44A08D);
+}

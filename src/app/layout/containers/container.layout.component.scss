@@ -1,0 +1,28 @@
+@import "cores";
+
+.grid-principal {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 140px auto;
+    grid-template-rows: 70px auto;
+    grid-template-areas: "atb atb"
+                         "asm ac";
+    overflow: hidden;
+}
+
+.area-top-bar {
+    grid-area: atb;
+}
+
+.area-side-menu {
+    grid-area: asm;
+    overflow-y: hidden;
+}
+
+.area-conteudo {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: $cor-fundo-principal;
+    grid-area: ac;
+}
