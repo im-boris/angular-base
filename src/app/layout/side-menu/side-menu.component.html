@@ -5,7 +5,7 @@
              (click)="selecionado(item)" 
              [ngClass]="{'opcao-selecionada' : item.selecionado}">
              <span [ngClass]="item.nomeIcone" [ngStyle]="{'font-size': item.tamIcone}"></span>
-             <span>{{item.nome}}</span>
+             <span [ngStyle]="{'font-size': item.tamNome}">{{item.nome}}</span>
         </div>
     </div>
 </div>

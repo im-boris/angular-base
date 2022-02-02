@@ -38,7 +38,8 @@
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
-                "src/stylings"
+                "src/stylings",
+                "src/assets/fonts"
               ]
             },
             "scripts": []
