@@ -24,7 +24,7 @@ const IMPORTS = [
     CheckboxModule,
     DropdownModule,
     ToastModule,
-    TableModule
+    TableModule,
 ];
 
 const EXPORTS = [
@@ -38,7 +38,7 @@ const EXPORTS = [
     CheckboxModule,
     DropdownModule,
     ToastModule,
-    TableModule
+    TableModule,
 ];
 
 @NgModule({

@@ -12,13 +12,13 @@ const routes: Routes = [
         path: 'home',
         component: ContainerHomeComponent
       },
-      // { 
-      //   path: 'funcionalidades', 
-      //   loadChildren: () => 
-      //     import('./funcionalidades/funcionalidades.module').then(
-      //       m => m.FuncionalidadesModule
-      //     )
-      // }
+      { 
+        path: 'funcionalidades', 
+        loadChildren: () => 
+          import('./funcionalidades/funcionalidades.module').then(
+            m => m.FuncionalidadesModule
+          )
+      }
     ]
   }
 
