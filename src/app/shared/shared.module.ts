@@ -9,6 +9,15 @@ import { CheckboxModule } from 'primeng/checkbox';
 import { DropdownModule } from 'primeng/dropdown';
 import { ToastModule } from 'primeng/toast';
 import { TableModule } from 'primeng/table';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatRippleModule } from "@angular/material/core";
+
 
 const DECLARATIONS = [
     FilterPipe
@@ -25,6 +34,14 @@ const IMPORTS = [
     DropdownModule,
     ToastModule,
     TableModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatDividerModule,
+    MatListModule,
+    MatExpansionModule,
+    MatRippleModule
 ];
 
 const EXPORTS = [
@@ -39,6 +56,14 @@ const EXPORTS = [
     DropdownModule,
     ToastModule,
     TableModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatDividerModule,
+    MatListModule,
+    MatExpansionModule,
+    MatRippleModule
 ];
 
 @NgModule({

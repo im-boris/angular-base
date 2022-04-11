@@ -3,21 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContainerLayoutComponent } from './layout/containers/container.layout.component';
-import { SideMenuComponent } from './layout/side-menu/side-menu.component';
-import { TopBarComponent } from './layout/top-bar/top-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedModule } from './shared/shared.module';
+import { TopBarComponent } from './layout/components/top-bar/top-bar.component';
+import { SideNavbarComponent } from './layout/components/side-navbar/side-navbar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ContainerLayoutComponent,
-    SideMenuComponent,
-    TopBarComponent
+    TopBarComponent,
+    SideNavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

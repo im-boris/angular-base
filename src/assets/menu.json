@@ -1,0 +1,18 @@
+[
+    {
+        "text": "Dashboard",
+        "icon": "dashboard",
+        "routerLink": "home"
+    },
+    {
+        "text": "Suit",
+        "icon": "inventory_2",
+        "children": [
+            {
+                "text": "Product",
+                "icon": "all_inbox",
+                "routerLink": "/product/manage"
+            }
+        ]
+    }
+]

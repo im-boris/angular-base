@@ -1,5 +1,4 @@
 import { Component, ViewEncapsulation } from "@angular/core";
-import { MenuItens } from "src/app/shared/menu-itens";
 
 @Component({
     selector: 'br-template',
@@ -7,8 +6,4 @@ import { MenuItens } from "src/app/shared/menu-itens";
     styleUrls: ['./container.layout.component.scss'],
     encapsulation: ViewEncapsulation.None
 })
-export class ContainerLayoutComponent {
-
-    menuItens: any[] = MenuItens.getMenuItens();
-
-}
+export class ContainerLayoutComponent {}
