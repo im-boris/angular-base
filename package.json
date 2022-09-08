@@ -22,8 +22,6 @@
     "@angular/router": "~12.2.0",
     "@mdi/font": "^6.5.95",
     "moment": "^2.29.1",
-    "primeicons": "^5.0.0",
-    "primeng": "^13.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
